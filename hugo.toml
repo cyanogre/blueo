@@ -1,4 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'es-es'
 title = 'Mi Blog de Inglés y Oposiciones'
-theme = 'ananke'
+theme = 'mi-tema'
