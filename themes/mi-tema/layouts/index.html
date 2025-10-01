@@ -1,14 +1,131 @@
 {{ define "main" }}
 
-  <section class="hero">
-    </section>
-  <section class="section" id="categories">
-    </section>
-  <section class="section" id="levels">
-    </section>
-  <section class="section" id="resources">
-    </section>
-  <div class="cta-section">
+<section class="hero">
+    <div class="hero-gradient"></div>
+    <div class="hero-content">
+        <h1>Tu plataforma de<br>recursos de inglés</h1>
+        <p class="hero-subtitle">Materiales premium para todos los niveles. Cambridge, Pearson, oposiciones y mucho más.</p>
+        
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Buscar materiales, exámenes, recursos...">
+            <button class="search-btn">Buscar</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Recursos disponibles</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Niveles MCER</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Exámenes práctica</div>
+            </div>
+        </div>
     </div>
+</section>
+
+<section class="section" id="categories">
+    <div class="section-header">
+        <h2 class="section-title">Explora por categoría</h2>
+        <p class="section-desc">Encuentra exactamente lo que necesitas organizado por tipo de contenido</p>
+    </div>
+    <div class="cards-grid">
+        <div class="card">
+            <div class="card-icon">🎯</div>
+            <h3>Exámenes Cambridge</h3>
+            <p>KET, PET, FCE, CAE, CPE. Tests completos, estrategias y tips para aprobar con nota.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">✍️</div>
+            <h3>Pearson Tests</h3>
+            <p>Preparación específica para PTE Academic con ejercicios reales y simulacros.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">🏛️</div>
+            <h3>Oposiciones</h3>
+            <p>Temario actualizado, programaciones didácticas y recursos para oposiciones de inglés.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">💼</div>
+            <h3>Inglés Adultos</h3>
+            <p>Materiales específicos adaptados a las necesidades de estudiantes adultos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="levels">
+    <div class="section-header">
+        <h2 class="section-title">Filtra por nivel</h2>
+        <p class="section-desc">Contenido adaptado a tu nivel según el Marco Común Europeo</p>
+    </div>
+    <div class="levels-container">
+        <button class="level-chip active">Todos</button>
+        <button class="level-chip">A1</button>
+        <button class="level-chip">A2</button>
+        <button class="level-chip">B1</button>
+        <button class="level-chip">B2</button>
+        <button class="level-chip">C1</button>
+        <button class="level-chip">C2</button>
+    </div>
+</section>
+
+<section class="section" id="resources">
+    <div class="section-header">
+        <h2 class="section-title">Recursos destacados</h2>
+        <p class="section-desc">Los materiales más descargados y valorados por la comunidad</p>
+    </div>
+    <div class="resources-grid">
+        <div class="resource-card">
+            <div class="resource-header">
+                <h3 class="resource-title">Grammar Mastery B2</h3>
+                <div class="resource-meta">
+                    <span class="meta-tag">B2</span>
+                    <span class="meta-tag">📄 45 pág</span>
+                    <span class="meta-tag">⭐ 4.9</span>
+                </div>
+            </div>
+            <div class="resource-body">
+                <p class="resource-desc">Ejercicios completos de gramática nivel intermedio alto con explicaciones detalladas y claves de respuestas.</p>
+                <a href="#" class="download-btn">
+                    <span>Descargar PDF</span>
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="resource-card">
+            <div class="resource-header">
+                <h3 class="resource-title">FCE Practice Tests</h3>
+                <div class="resource-meta">
+                    <span class="meta-tag">Cambridge</span>
+                    <span class="meta-tag">📄 80 pág</span>
+                    <span class="meta-tag">🔥 Nuevo</span>
+                </div>
+            </div>
+            <div class="resource-body">
+                <p class="resource-desc">4 exámenes completos con formato oficial del First Certificate. Incluye audios y claves detalladas.</p>
+                <a href="#" class="download-btn">
+                    <span>Descargar Pack</span>
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="cta-section">
+    <div class="cta-content">
+        <h2 class="cta-title">¿Listo para empezar?</h2>
+        <p class="cta-desc">Únete a miles de estudiantes y profesores que confían en nuestra plataforma</p>
+        <a href="#" class="cta-button">
+            <span>Explorar recursos</span>
+            <span>→</span>
+        </a>
+    </div>
+</div>
 
 {{ end }}
